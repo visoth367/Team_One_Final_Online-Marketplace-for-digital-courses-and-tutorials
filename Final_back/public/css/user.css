@@ -1,0 +1,76 @@
+.home-section {
+  position: relative;
+  background: #e2e2e2;
+  min-height: 100vh;
+  top: 0;
+  left: 78px;
+  width: calc(100% - 78px);
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+.container{
+  padding: 10px;
+
+}
+.sidebar.open~.home-section {
+  left: 250px;
+  width: calc(100% - 250px);
+}
+.home-section .text {
+  display: inline-block;
+  color: #11101d;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 18px
+}
+.user-list {
+  margin: 20px 0;  /* Add some space above and below the list */
+}
+  
+.user {
+  display: flex;  /* Arrange user info side-by-side */
+  margin-bottom: 15px;  /* Add space between users */
+  border-bottom: 1px solid #ddd;  /* Add a subtle divider line */
+  padding: 5px 10px;  /* Add some padding for readability */
+  /* background-color: aquamarine; */
+  border: 1px solid rgb(142, 142, 142);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.info span{
+  border: 3px;
+  border-color: #11101d;
+  padding: auto;  
+    /* Make info section take up most of the space */
+}
+.name,
+.email {
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+  
+.name {
+ font-weight: bold;  /* Make name stand out */
+}
+
+.info {
+  position: relative;
+  align-items: center;
+}
+
+/* .delete-btn,
+.edit-btn {
+  padding: 5px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: blue;
+  
+} */
+
+  

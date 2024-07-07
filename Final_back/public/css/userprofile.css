@@ -1,0 +1,96 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    transition: margin-left 0.3s;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.custom-table tr:nth-child(odd) {
+    background-color: white;
+}
+
+.custom-table tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+.custom-table td {
+    padding: 10px;
+}
+
+.course-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.course-item img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.profile-image img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 18px;
+}
+
+.btn-primary,
+.btn-secondary {
+    margin-right: 10px;
+}
+
+.sidebar-closed .main-content {
+    margin-left: 78px;
+}
+
+.main-content {
+    margin-left: 250px;
+    transition: margin-left 0.3s;
+}
+
+.toggle-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #ff6600;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.toggle-btn:hover {
+    background-color: #cc5200;
+}

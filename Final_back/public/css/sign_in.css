@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.left-side {
+    width: 50%;
+    background-color: #e8f4ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.right-side {
+    width: 50%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.illustration {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.create-account {
+    color: #ff5a5f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form-container {
+    margin-top: 20px;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.remember-me input {
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff5a5f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.social-signin {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-signin p {
+    margin-bottom: 10px;
+}
+
+.social-buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.google {
+    background-color: #db4437;
+    color: #fff;
+}
+
+button.facebook {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+button.apple {
+    background-color: #000000;
+    color: #fff;
+}

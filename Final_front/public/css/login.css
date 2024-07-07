@@ -1,0 +1,106 @@
+body {
+    font-family: 'Courier New';
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-size: 12px;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 10% 10%;
+    border-radius: 0px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
+    width: 30%;
+    height:60vh;
+  }
+  .container-item {
+    margin-top: 25%;  
+  }
+  .logo {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 15px;
+    border: 1px solid #8a8989;
+    border-radius: 0px;
+    margin-bottom: 15px;
+    width:92%;
+    font-size: 12px;
+    font-family: 'Courier New';
+    opacity: 0.5;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .checkbox-container input[type="checkbox"] {
+    margin-right: 5px;
+  }
+
+  .container-label{
+    text-align: left; 
+  }
+  
+  button {
+    background-color: #f06800;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    width: 100px;
+    margin-left: 55%;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .social-login {
+    margin-bottom: 20px;
+  }
+  
+  .social-login h4 {
+    margin-bottom: 10px;
+  }
+  
+  .social-login a {
+    margin-right: 10px;
+  }
+  
+  .social-login img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

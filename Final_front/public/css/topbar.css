@@ -1,0 +1,135 @@
+.navbar {
+    background-color: #ffffff !important;
+    position: relative;
+}
+
+.search-form {
+    position: relative;
+}
+
+.logo-img {
+    width: 150px;
+    height: 50px;
+}
+
+.navbar-brand {
+    height: 50px;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+}
+
+.search-input {
+    padding-left: 40px;
+    border: #344EAD solid 1px;
+    background-color: #EDF0F5;
+}
+
+.search-icon {
+    position: absolute;
+    font-size: 30px;
+    top: 50%;
+    left: 7px;
+    transform: translateY(-50%);
+}
+
+.dropdown-toggle {
+    background: none;
+    color: #344EAD;
+    border: none;
+}
+
+.dropdown-toggle .bx-bell {
+    font-size: 24px;
+
+}
+
+.dropdown-toggle .badge {
+    position: absolute;
+    top: -5px;
+    right: -8px;
+    padding: 5px 8px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+}
+
+.dropdown-menu {
+    min-width: 150px;
+}
+
+.dropdown-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown-item::after {
+    font-size: 12px;
+    color: #aaa;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.btn.dropdown-toggle {
+    border-radius: 50%;
+    padding: 5px;
+    width: 45px;
+    height: 45px;
+    background-color: #FAFAFA;
+}
+
+.btn.dropdown-toggle:hover,
+.btn.dropdown-toggle:focus {
+    background-color: #344EAD;
+}
+
+.profile-dropdown-menu {
+    min-width: 84px;
+}
+
+.profile-dropdown-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border-bottom: #5a94ff solid 1px; */
+}
+
+.profile-dropdown-item:hover {
+    background-color: #b1c9f7;
+}
+
+.profile-dropdown-item::after {
+    font-size: 12px;
+    color: #aaa;
+}
+
+.profile-dropdown-item::after {
+    content: none !important;
+}
+
+.profile-dropdown-toggle::after {
+    display: none;
+}
+
+.btn.profile-dropdown-toggle {
+    border-radius: 50%;
+    padding: 5px;
+    width: 45px;
+    height: 45px;
+    background-color: #FAFAFA;
+    border: #344EAD solid 1px;
+}
+
+.btn.profile-dropdown-toggle:hover,
+.btn.profile-dropdown-toggle:focus {
+    background-color: none;
+    box-shadow: #344EAD 0 0 10px;
+}
+
+.dropdown-menu-mid {
+    left: 50% !important;
+    transform: translateX(-50%);
+}
